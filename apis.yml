@@ -1,4 +1,16 @@
 aid: edgespring
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edgespring.png
 name: EdgeSpring
 description: 'EdgeSpring is a company surfaced as a portfolio company of kleiner-perkins, lightspeed-venture-partners
   and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
@@ -11,12 +23,35 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-lifecycle-status: defunct
+x-lifecycle-note: 'Acquired by Salesforce in 2013 and folded into Salesforce Wave / Einstein
+  Analytics; no longer operates as a standalone company. Re-verified 2026-07-20: edgespring.com
+  (and www) 301-redirects off-host to an unrelated repurposed/squatted site — the redirect
+  target has rotated since the prior pass (venom123hero.com -> venom123jp.com), confirming
+  the domain is no longer controlled by the company. api./developer./docs.edgespring.com
+  do not resolve; the apex has no MX and no TXT/SPF records. There is no live developer
+  portal, API, or specification surface to enrich. Do not re-probe as an active provider.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No artifacts possible: company defunct since the 2013 Salesforce acquisition
+    and the domain is no longer company-controlled. Live probes (HTTP on apex/www/api/developer/docs,
+    DNS A/NS/MX/TXT, probe-domain-security.py, probe-security-programs.py) all returned
+    empty or off-host. Session WebSearch budget was exhausted, but probe evidence is
+    dispositive and no search result could produce a portal for a company that has not
+    operated standalone in 13 years.'
 tags:
 - Company
 - Enterprise
+- Analytics
+- Business Intelligence
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
