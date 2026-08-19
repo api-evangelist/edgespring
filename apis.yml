@@ -31,7 +31,7 @@ x-lifecycle-note: 'Acquired by Salesforce in 2013 and folded into Salesforce Wav
   the domain is no longer controlled by the company. api./developer./docs.edgespring.com
   do not resolve; the apex has no MX and no TXT/SPF records. There is no live developer
   portal, API, or specification surface to enrich. Do not re-probe as an active provider.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-enrichment:
